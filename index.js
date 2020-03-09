@@ -149,8 +149,8 @@ console.log( +false ); // 0, false is converted to 0
 console.log( +"" );   // 0, empty string converted to 0
 
 console.log("Comma Operator in a Variable");
-let r =(1 + 2, 3 + 4);
-console.log(r);
+let comma =(1 + 2, 3 + 4);
+console.log(comma);
 
 
 console.log("Assignment Operator");
@@ -174,3 +174,48 @@ console.log(x /= y);
 
 //The %= operator divides x from y and then assigns the remainder back to x.
 console.log(x %= y);
+
+
+console.log("Comparison Operator")
+
+let compareOne = 10;
+let compareTwo = 55;
+
+if (compareOne == compareTwo) {
+   console.log("Equal") 
+}
+
+if (compareOne === compareTwo) {
+    console.log("Identical") 
+ }
+
+ if (compareOne != compareTwo) {
+    console.log("Not Equal") 
+ }
+
+ if (compareOne !== compareTwo) {
+    console.log("Not Identical") 
+ }
+
+ if (compareOne < compareTwo) {
+    console.log("Less than") 
+ }
+
+ if (compareOne > compareTwo) {
+    console.log("Greater than") 
+ }
+
+ if (compareOne >= compareTwo) {
+    console.log("Greater than or Equal to") 
+ }
+
+ if (compareOne <= compareTwo) {
+    console.log("Less than or Equal to") 
+ }
+
+ console.log(10 == 5) // equal to
+ console.log(10 != 5) // not equal to
+ console.log(10 < 5) // less than
+ console.log(10 > 5) // greater than
+ console.log(10 <= 5) // less than or equal to
+ console.log(10 >= 5) // greater than or equal to
