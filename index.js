@@ -295,4 +295,4 @@ console.log(false || 1)
 console.log(false || 0) // Both operands are false. So 0 (false) 
 console.log(0 || 0) //Same as previous, both operands are false. So 0 (false)
 
-
+console.log(true && true)
