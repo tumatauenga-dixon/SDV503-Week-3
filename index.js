@@ -35,3 +35,27 @@ console.log(b);
 console.log(b++);
 console.log(b);
 console.log(b++);
+
+//2 Decrement Operator
+//Pre-decrement
+
+console.log(c);
+console.log(--c);
+console.log(c);
+console.log(--c);
+console.log(c);
+console.log(--c);
+console.log(c);
+
+//Post-decrement
+
+console.log(b);
+console.log(b--);
+console.log(b);
+console.log(b--);
+console.log(b);
+console.log(b--);
+console.log(b);
+console.log(b--);
+
+//
