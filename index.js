@@ -179,7 +179,7 @@ console.log(x %= y);
 console.log("Comparison Operator")
 
 let compareOne = 10;
-let compareTwo = 55;
+let compareTwo = 11;
 
 if (compareOne == compareTwo) {
    console.log("Equal") 
@@ -270,4 +270,29 @@ console.log(null === 0);
 
 console.log(null == undefined) // Equality check : undefined is equal to null
 console.log(null === undefined) // Strict Equality : both are of different Data Types
+
+
+console.log(null + 1) // Null is equal to 0 in a math operation. So 0 + 1 = 1. So 1
+console.log(undefined > 0)
+console.log(undefined + 1) // Undefined does not have a value, and therefore can't be a prt of a math operation. So NaN
+
+// In the case of OR, if any of the operands are true then it returns true, therwise it returns false.
+console.log(true || true)
+console.log(true || false)
+console.log(false || true)
+console.log(false || false)
+
+console.log(1 || 1)
+console.log(1 || 0)
+console.log(0 || 1)
+console.log(0 || 0)
+
+// If an operand or the operands are not boolean, then it is converted to the boolean for evaluation, and returns the original value of the operand, not the converted boolean.
+console.log(true || 0) // 0 is false. So true
+console.log(1 || false) // 1 represents true. So 1 (true) 
+console.log(true || 1) // Both operands are true. So true
+console.log(false || 1)
+console.log(false || 0) // Both operands are false. So 0 (false) 
+console.log(0 || 0) //Same as previous, both operands are false. So 0 (false)
+
 
