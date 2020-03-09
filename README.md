@@ -1,6 +1,6 @@
 # SDV503-Week-3
 
-#Lab Zero
+## Lab Zero
 
 I learnt about Git through an application called VSCode - a coding application redefined and optimized for building and debugging modern web and cloud applications. During the course, we were taught to use Git in repository structuring and organization by participating in various Git focused activities such as a website called, "Learning Git Branching" which taught us the basics in branching in a fun and interactive way, a "GitMasters" activity that got 3-6 of us in a group as we attempted to create our own branch from our GitMaster origin/master branch, and then merge the two together - thereby sharing the data between them in a compiled form.
 
@@ -14,7 +14,7 @@ However, after troubleshooting and getting external suggestions from my colleagu
 
 I believe this has been taught to give us a better look, and easier understanding of Git as a whole. By initially participating in minor and less complex sides of the language, we as a class were able to gain a limited understanding of Git as a whole before being taught harder and more complex coding techniques.
 
-#Lab One
+## Lab One
 
 The focus this week was Javascript, and more specifically the use of functions and variables. During the course, we were taught to use VSCode in order to manipulate/create Javascript code by participating in various activities orientated around the usage of Javascript. For example, were directed to FreeCodeCamp: a large collection interactive Javascript coding lessons. Paired with our own Slack channel specifically to post progress, it makes for a fun and collaborative activity. We were also given direction to a more game-oriented learning platform called CodeCombat: essentially wat it says on the tin, a video game built around different coding languages. In this case, I was using Javascript but other languages are available to learn this way. 
 
