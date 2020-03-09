@@ -119,4 +119,9 @@ let bi = 10;
 let bi2 = 5;
 console.log(bi + bi2);  // 15, binary plus adds the value
 
-//String Concatenation
+//Activity
+const firstword = "Hello"
+const secondword = "World"
+
+console.log(firstword + secondword);
+console.log(`${firstword} ${secondword}`);
