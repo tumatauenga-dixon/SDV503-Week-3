@@ -68,3 +68,18 @@ console.log(b--);
 let a = 1;
 console.log(5 * ++a); //10let a = 1;
 console.log(5 * a++); // 5, because a returns the previous value
+
+let o = 5;
+let p = o;
+
+console.log("Pre - Increment");
+
+p = ++o
+console.log(o);
+console.log(p);
+
+console.log("Post-Increment");
+
+p = o++;
+console.log(o);
+console.log(p);
