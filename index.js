@@ -142,3 +142,35 @@ console.log(10 + 10 + '5');
 
 console.log('10' + '10');
 //Both 10s are String. So both concatenated together. 
+
+console.log("Booleans to Numbers");
+console.log( +true );  // 1, true is converted to 1 using unary plus
+console.log( +false ); // 0, false is converted to 0
+console.log( +"" );   // 0, empty string converted to 0
+
+console.log("Comma Operator in a Variable");
+let r =(1 + 2, 3 + 4);
+console.log(r);
+
+
+console.log("Assignment Operator");
+//x = 10
+//y = 5
+
+//The = operator assigns y to x.
+console.log(x = y);
+
+//The += operator adds x to y and then assigns the total value back to x.
+console.log(x += y);
+
+//The -= operator subtracts x from y and then assigns the total value back to x.
+console.log(x -= y);
+
+//The *= operator multiplies x with y and then assigns the total value back to x.
+console.log(x *= y);
+
+//The /= operator divides x from y and then assigns the total value back to x.
+console.log(x /= y);
+
+//The %= operator divides x from y and then assigns the remainder back to x.
+console.log(x %= y);
