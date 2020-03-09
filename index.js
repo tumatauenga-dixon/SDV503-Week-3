@@ -264,3 +264,10 @@ console.log(" ");
 
 console.log(0 == false); // Boolean "false" is converted to number 0. So true
 console.log(0 === false); // Strict equality : Boolean false is taken as Boolean Type. So false
+
+console.log(null == 0); // null is not converted to Number 0, treated as null itself
+console.log(null === 0);
+
+console.log(null == undefined) // Equality check : undefined is equal to null
+console.log(null === undefined) // Strict Equality : both are of different Data Types
+
