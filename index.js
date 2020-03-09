@@ -36,6 +36,10 @@ console.log(b++);
 console.log(b);
 console.log(b++);
 
+//In the case of pre-increment, the value increments and then the 
+//expression is executed. However in the case of post-increment the 
+//value's expressions is evaluated first and then incremented.
+
 //2 Decrement Operator
 //Pre-decrement
 
@@ -58,4 +62,8 @@ console.log(b--);
 console.log(b);
 console.log(b--);
 
-//
+//Increment/ Decrement Operator inside an expression
+
+let a = 1;
+console.log(5 * ++a); //10let a = 1;
+console.log(5 * a++); // 5, because a returns the previous value
