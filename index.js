@@ -125,3 +125,20 @@ const secondword = "World"
 
 console.log(firstword + secondword);
 console.log(`${firstword} ${secondword}`);
+
+console.log("String Concatenation")
+
+console.log(10 + 5);
+//Both operands are numbers. Addition operation performed.
+
+console.log(10 + '5');
+//10 is Number and 5 is a String. So both operands are concatenated.
+
+console.log('10' + 5);
+//10 is a String and 5 is a number. So both operands are concatenated.
+
+console.log(10 + 10 + '5');
+//Both 10s are Numbers and 5 is a String. 10s are added and concatenated with String 5.
+
+console.log('10' + '10');
+//Both 10s are String. So both concatenated together. 
