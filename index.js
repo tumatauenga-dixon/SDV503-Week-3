@@ -189,33 +189,66 @@ if (compareOne === compareTwo) {
     console.log("Identical") 
  }
 
- if (compareOne != compareTwo) {
+if (compareOne != compareTwo) {
     console.log("Not Equal") 
  }
 
- if (compareOne !== compareTwo) {
+if (compareOne !== compareTwo) {
     console.log("Not Identical") 
  }
 
- if (compareOne < compareTwo) {
+if (compareOne < compareTwo) {
     console.log("Less than") 
  }
 
- if (compareOne > compareTwo) {
+if (compareOne > compareTwo) {
     console.log("Greater than") 
  }
 
- if (compareOne >= compareTwo) {
+if (compareOne >= compareTwo) {
     console.log("Greater than or Equal to") 
  }
 
- if (compareOne <= compareTwo) {
+if (compareOne <= compareTwo) {
     console.log("Less than or Equal to") 
  }
 
- console.log(10 == 5) // equal to
- console.log(10 != 5) // not equal to
- console.log(10 < 5) // less than
- console.log(10 > 5) // greater than
- console.log(10 <= 5) // less than or equal to
- console.log(10 >= 5) // greater than or equal to
+console.log(10 == 5); // equal to
+console.log(10 != 5); // not equal to
+console.log(10 < 5); // less than
+console.log(10 > 5); // greater than
+console.log(10 <= 5); // less than or equal to
+console.log(10 >= 5); // greater than or equal to
+
+console.log(10 == '5'); // equal to
+console.log(10 == '10');
+console.log(10 != '5'); // not equal to
+console.log(10 != '10');
+console.log(10 < '5'); // less than
+console.log(10 < '10');
+console.log(10 > '5'); // greater than
+console.log(10 > '10');
+console.log(10 <= '5'); // less than or equal to
+console.log(10 <= '10');
+console.log(10 >= '5'); // greater than or equal to
+console.log(10 >= '10');
+
+console.log(10 === 10)
+
+console.log("Boolean and Number Comparison");
+
+console.log(true == 1); // equal to
+console.log(true == "1");
+console.log(true == 0);
+console.log(false == 1); // equal to
+console.log(false == 0);
+console.log(false == "0");
+
+console.log(" ");
+
+console.log(true != 1); // not equal to
+console.log(true != "1");
+console.log(true != 0);
+console.log(false != 1); // not equal to
+console.log(false != 0);
+console.log(false != "0");
