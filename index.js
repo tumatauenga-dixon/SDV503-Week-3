@@ -36,9 +36,10 @@ console.log(b++);
 console.log(b);
 console.log(b++);
 
-//In the case of pre-increment, the value increments and then the 
-//expression is executed. However in the case of post-increment the 
-//value's expressions is evaluated first and then incremented.
+//In the case of pre-increment operators, the value increments and then 
+// the expression is executed. However in the case of post-increment 
+//opperators, the value's expressions is evaluated first and then 
+//incremented.
 
 //2 Decrement Operator
 //Pre-decrement
