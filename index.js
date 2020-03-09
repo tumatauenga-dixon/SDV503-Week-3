@@ -252,3 +252,15 @@ console.log(true != 0);
 console.log(false != 1); // not equal to
 console.log(false != 0);
 console.log(false != "0");
+
+
+console.log(1 == "1"); // Equality : String "1" converted to Number. So true
+console.log(1 === "1"); // Strict Equality : Checks the equality of DataType. 1 is number and "1" is string. So false
+console.log(" ");
+
+console.log(1 == true); // Boolean "true" is converted to number 1. So true
+console.log(1 === true); // Strict equality : Boolean true is taken as Boolean Type. So false
+console.log(" ");
+
+console.log(0 == false); // Boolean "false" is converted to number 0. So true
+console.log(0 === false); // Strict equality : Boolean false is taken as Boolean Type. So false
